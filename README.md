@@ -1,5 +1,3 @@
-
-
 # TP2 – Création et résolution d’un conflit de merge avec Git
 
 Ce dépôt contient la réalisation du TP2, dont l’objectif était de créer volontairement un conflit Git, de l’observer puis de le résoudre.
@@ -107,4 +105,41 @@ Le conflit a été :
 - résolu manuellement,
 - puis validé via un commit.
 
-Le dépôt est désormais propre et à jour sur la branche **main**.
+
+---
+
+## Installation de l’environnement Python et des dépendances
+
+Pour exécuter le code Python de ce dépôt dans un environnement isolé, suivez les étapes ci-dessous selon votre système d’exploitation :
+
+### 1. Créer un environnement virtuel
+
+- **Sur Windows** :
+
+```bash
+python -m python venv
+python\Scripts\activate
+```
+
+- **Sur macOS ou Linux** :
+
+```bash
+python -m venv python
+source python/bin/activate
+```
+
+### 2. Installer les dépendances
+
+Il y a le fichier `requirements.txt` pour l'installation des dépendances avec :
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Lancer le notebook 
+
+Pour lancer le notebook, il suffit de se rendre sur le fichier `TP4_AB_Testing.ipynb` et utiliser le bouton **Run All* de l'interface.
+
+### 4. Obtenir le rapport
+
+Une fois le notebook exectuer un rapport sera générer sous forme de pdf au nom de `TP4_AB_Testing_report.pdf`
